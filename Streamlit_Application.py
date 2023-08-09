@@ -3,7 +3,7 @@ from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "sk-"
 llm = OpenAI(temperature=0.7,model_name="gpt-3.5-turbo")
 st.header("Test Scenario Generation using GenAI ")
 option = st.sidebar.selectbox("Output Type", ("Decision Table", "Use cases"))
